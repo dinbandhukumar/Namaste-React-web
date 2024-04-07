@@ -1,0 +1,31 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is Namaste React web series from  Dinbandhu",
+  
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinbandhukumar/Namaste-React-web.git"
+  },
+  "keywords": [],
+  "author": "Dinbandhu Gond",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinbandhukumar/Namaste-React-web/issues"
+  },
+  "homepage": "https://github.com/dinbandhukumar/Namaste-React-web#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist":[
+    "last 2 versions"
+  ]
+}
