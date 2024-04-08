@@ -18,4 +18,7 @@
 -Support older version
 -Error handling
 -diagnostic
+-HTTPs
+-Tree shaking - remove unused code 
+-different Dev and Production bundlers
 

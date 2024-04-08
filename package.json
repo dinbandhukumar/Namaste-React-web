@@ -4,6 +4,8 @@
   "description": "This is Namaste React web series from  Dinbandhu",
   
   "scripts": {
+    "start" : "parcel index.html",
+    "build" : "parcel build index.html",
     "test": "jest"
   },
   "repository": {
