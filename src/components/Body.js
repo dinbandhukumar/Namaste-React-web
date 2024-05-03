@@ -71,14 +71,16 @@ const Body = () => {
             serch
           </button>
         </div>
+
         <button
           className="filter-btn"
+          // Here we have to replace setListOfRestaurants with setFilterList.
           onClick={() => {
-            setListOfRestaurants(() =>
-              listOfRestaurants.filter(
-                (restaurant) => restaurant.info.avgRating > 4.2
+            setFilterList(() => listOfRestaurants.filter(
+                (restaurant) => restaurant.info.avgRating > 4.4
               )
             );
+             //console.log(filterList);
           }}
         >
           Top rated Restaurant
@@ -102,3 +104,4 @@ const Body = () => {
 };
 
 export default Body;
+
